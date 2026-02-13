@@ -1,0 +1,41 @@
+{
+  "name": "sl-basics",
+  "version": "1.0.0",
+  "description": "Creating a backend of Sl-Basics for a React Admin Dashboard and Flutter Mobile Application",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config --experimental-json-modules src/index.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
+    "test": "echo \"No test specified\"",
+    "build": "mkdir -p dist && cp -r src dist && cp package.json dist"
+  },
+  "keywords": [
+    "backend",
+    "ecommerce"
+  ],
+  "author": "Muhammad Saim Ali Siddiqui",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.5.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "memcached": "^2.2.2",
+    "mongoose": "^8.7.2",
+    "mongoose-aggregate-paginate-v2": "^1.0.7",
+    "multer": "^1.4.5-lts.1",
+    "node-thermal-printer": "^4.4.2",
+    "otp-generator": "^4.0.1",
+    "stripe": "^17.2.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5",
+    "xml-js": "^1.6.11"
+  }
+}

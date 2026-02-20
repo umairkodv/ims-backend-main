@@ -1,4 +1,4 @@
-# 🛠 IMS Backend (Inventory / Admin Management System)                 
+# 🛠 IMS Backend (Inventory / Admin Management System)                  
 
 Backend API for the Inventory Management System (IMS).  
 This project provides RESTful APIs for authentication, inventory management, file uploads, and payment integration.
